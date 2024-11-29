@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# Portfolio Site
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 概要
+Nuxt3とVue.jsを使用したモダンなポートフォリオサイトです。シンプルで洗練されたデザインと、スムーズなアニメーションを特徴としています。
 
-## Setup
+## 技術スタック
+- **フレームワーク**: Nuxt3
+- **言語**: TypeScript
+- **スタイリング**: TailwindCSS
+- **アニメーション**: カスタムトランジション
+<!-- - **デプロイ**: Cloudflare Pages -->
 
-Make sure to install dependencies:
+## 主な機能
+- レスポンシブデザイン
+- ページトランジションアニメーション
+- スクロールアニメーション
+- 作品一覧表示
+- コンタクトフォーム
 
-```bash
-# npm
-npm install
+## デモ
+準備中
+<!-- [ポートフォリオサイトURL] -->
 
-# pnpm
-pnpm install
+## 特徴的な実装
+- Intersection Observerを使用したスクロールアニメーション
+- TailwindCSSによる効率的なスタイリング
+- TypeScriptによる型安全な開発
+- コンポーネント設計による保守性の高いコード
 
-# yarn
-yarn install
+## 今後の実装予定
+- 作品詳細ページの追加
+- ダークモード対応
+- パフォーマンス最適化
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## ライセンス
+- MIT License
