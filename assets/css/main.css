@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition;
+  }
+  
+  .section-title {
+    @apply text-2xl font-bold mb-8 text-center;
+  }
+}
