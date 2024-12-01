@@ -10,6 +10,10 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
   },
+  runtimeConfig: {
+    gmailUser: process.env.GMAIL_USER,
+    gmailAppPassword: process.env.GMAIL_APP_PASSWORD
+  },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
   ssr: true,
