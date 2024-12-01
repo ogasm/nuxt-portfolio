@@ -61,7 +61,7 @@
         <div class="text-center">
           <button
             type="submit"
-            class="px-8 py-3 bg-gradient-to-r from-[#4facfe] to-[#00d4e0] text-white rounded-lg hover:opacity-90 transition-opacity"
+            class="px-10 py-3 bg-gradient-to-r from-[#4facfe] to-[#00d4e0] text-white rounded-lg hover:opacity-90 transition-opacity"
             :disabled="isSubmitting"
           >
             {{ isSubmitting ? '送信中...' : '送信する' }}
