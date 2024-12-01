@@ -14,7 +14,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <WorkCard 
             v-for="work in works" 
-            :key="work.title" 
+            :key="work.id" 
             :work="work" 
           />
         </div>
@@ -24,9 +24,13 @@
 </template>
 
 <script setup lang="ts">
+import { useWorks } from '../composables/useWorks'
+import { onMounted } from 'vue'
+
 const { works } = useWorks()
 
-definePageMeta({
-  layout: 'default'
+onMounted(() => {
+  // コンポーネントがマウントされた時の処理
+  console.log('Component mounted')
 })
 </script>

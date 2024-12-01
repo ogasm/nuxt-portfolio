@@ -8,3 +8,14 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      works: [] // ここで 'works' プロパティを定義します
+    };
+  },
+  // ... 既存のコード ...
+}
+</script>

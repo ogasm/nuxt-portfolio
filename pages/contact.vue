@@ -44,6 +44,7 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
 const formData = ref({
   name: '',
   email: '',
