@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="#FEFFFF"/>
+  
+  <!-- ヘッダー -->
+  <rect x="0" y="0" width="100%" height="80" fill="#2B7A78"/>
+  <text x="50" y="45" font-size="24" fill="#DEF2F1" font-family="Arial">Real Estate</text>
+  
+  <!-- メインビジュアル -->
+  <rect x="0" y="80" width="100%" height="300" fill="#3AAFA9" opacity="0.1"/>
+  <rect x="50" y="130" width="300" height="200" fill="#3AAFA9"/>
+  <text x="400" y="200" font-size="32" fill="#17252A" font-family="Arial">Find Your</text>
+  <text x="400" y="240" font-size="32" fill="#17252A" font-family="Arial">Dream House</text>
+  
+  <!-- 物件グリッド -->
+  <g transform="translate(50, 400)">
+    <!-- 物件カード1 -->
+    <rect width="220" height="150" fill="#DEF2F1" stroke="#3AAFA9"/>
+    <rect y="100" width="220" height="50" fill="#2B7A78"/>
+    <text x="20" y="130" font-size="14" fill="#FEFFFF">¥45,000,000</text>
+  </g>
+  
+  <g transform="translate(290, 400)">
+    <!-- 物件カード2 -->
+    <rect width="220" height="150" fill="#DEF2F1" stroke="#3AAFA9"/>
+    <rect y="100" width="220" height="50" fill="#2B7A78"/>
+    <text x="20" y="130" font-size="14" fill="#FEFFFF">¥38,000,000</text>
+  </g>
+  
+  <g transform="translate(530, 400)">
+    <!-- 物件カード3 -->
+    <rect width="220" height="150" fill="#DEF2F1" stroke="#3AAFA9"/>
+    <rect y="100" width="220" height="50" fill="#2B7A78"/>
+    <text x="20" y="130" font-size="14" fill="#FEFFFF">¥52,000,000</text>
+  </g>
+  
+  <!-- 検索バー -->
+  <rect x="200" y="350" width="400" height="40" fill="#FEFFFF" stroke="#2B7A78" stroke-width="2" rx="20"/>
+  <text x="230" y="375" font-size="14" fill="#17252A">Search properties...</text>
+</svg>

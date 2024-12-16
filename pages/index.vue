@@ -2,9 +2,9 @@
 <template>
   <div class="container mx-auto px-4">
     <section class="py-20">
-      <h1 class="text-4xl font-bold mb-6">Frontend Developer</h1>
+      <h1 class="text-4xl font-bold mb-6">フロントエンドエンジニア / Web制作コーダー</h1>
       <p class="text-lg text-gray-600">
-        Nuxt.js と Vue.js を使用したWeb開発のスペシャリストです
+        Nuxt.js と Vue.js HTML/CSS JavaScript を使用したWeb開発のスペシャリストです
       </p>
     </section>
 

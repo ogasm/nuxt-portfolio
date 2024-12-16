@@ -1,7 +1,7 @@
 <template>
   <header class="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 shadow-sm">
     <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
-      <NuxtLink to="/" class="text-xl font-bold">Portfolio</NuxtLink>
+      <NuxtLink to="/" class="text-xl font-bold">Ami's Portfolio</NuxtLink>
       <div class="flex gap-6">
         <NuxtLink 
           v-for="link in links" 

@@ -20,60 +20,99 @@ export const useWorks = () => {
   const works = ref<Work[]>([
     {
       id: 1,
-      title: 'コーポレートサイトリニューアル',
-      description: 'Nuxt3とTailwindCSSを使用した大規模リニューアル',
-      image: '/images/work1.jpg',
+      title: 'ポートフォリオサイト',
+      description: 'Nuxt3とTailwindCSSを使用したポートフォリオサイトを構築',
+      image: '/images/work1.svg',
       tags: ['Nuxt3', 'Vue.js', 'TailwindCSS'],
       process: [
         'ニーズ分析と設計',
-        'プロトタイプの作成',
-        'フロントエンドとバックエンドの整合性確認',
+        'フロントエンド実装',
         'テストとデプロイ'
-      ],
-      technologies: [
-        { name: 'Nuxt.js', description: 'SSRによる高速な表示とSEO対策' },
-        { name: 'Vue.js', description: 'インタラクティブなUI実装' },
-        { name: 'Tailwind CSS', description: 'モダンで保守性の高いスタイリング' },
-        { name: 'Firebase', description: 'バックエンドサービスとホスティング' }
-      ]
-    },
-    {
-      id: 2,
-      title: 'ECサイト構築',
-      description: 'Shopifyを使ったオンラインストアの構築',
-      image: '/images/work2.jpg',
-      tags: ['Shopify', 'API', 'React'],
-      process: [
-        '要件定義とシステム設計',
-        'データベース設計',
-        'フロントエンド開発',
-        '決済システム統合',
-        'セキュリティテスト'
-      ],
-      technologies: [
-        { name: 'Next.js', description: 'パフォーマンスとSEOを考慮したフレームワーク' },
-        { name: 'Stripe', description: '安全な決済システムの実装' },
-        { name: 'PostgreSQL', description: '堅牢なデータベース管理' },
-        { name: 'AWS', description: 'スケーラブルなインフラ構築' }
-      ]
-    },
-    {
-      id: 3,
-      title: 'モバイルアプリ開発',
-      description: 'React Nativeを使用したクロスプラットフォームアプリ',
-      image: '/images/work3.jpg',
-      tags: ['React Native', 'Mobile', 'JavaScript'],
-      process: [
-        'デザイン設計',
-        'コンポーネント設計',
-        'アニメーション実装',
-        'パフォーマンス最適化',
-        'デプロイ設定'
       ],
       technologies: [
         { name: 'Nuxt3', description: '最新のフレームワークによる高速な開発' },
         { name: 'TypeScript', description: '型安全な開発環境の構築' },
         { name: 'TailwindCSS', description: '効率的なスタイリング' },
+        { name: 'Cloudflare Pages', description: '高速なホスティングサービス' }
+      ]
+    },
+    {
+      id: 2,
+      title: 'オンラインピラティスLP（架空）',
+      description: 'HTMLとSCSS、JavaScriptのシンプルな仕様',
+      image: '/images/work2.jpg',
+      tags: ['HTML', 'SCSS', 'JavaScript'],
+      process: [
+        'ニーズ分析と設計',
+        'フロントエンド実装',
+        'フォームの実装・テスト'
+      ],
+      technologies: [
+        { name: 'Vite', description: '開発効率を重視したフレームワークを利用し、静的サイトとして納品' },
+        { name: 'Cloudflare Pages', description: '高速なホスティングサービス' }
+      ]
+    },
+    {
+      id: 3,
+      title: '不動産会社コーポレートサイト（架空）',
+      description: 'HTMLとSCSS、JavaScriptのシンプルな仕様',
+      image: '/images/work3.svg',
+      tags: ['HTML', 'SCSS', 'JavaScript'],
+      process: [
+        'ニーズ分析と設計',
+        'フロントエンド実装',
+        'フォームの実装・テスト'
+      ],
+      technologies: [
+        { name: 'Vite', description: '開発効率を重視したフレームワークを利用し、静的サイトとして納品' },
+        { name: 'Cloudflare Pages', description: '高速なホスティングサービス' }
+      ]
+    },
+    {
+      id: 4,
+      title: 'Coming Soon',
+      description: '準備中',
+      image: '/images/work4.svg',
+      tags: ['HTML', 'SCSS', 'JavaScript'],
+      process: [
+        'ニーズ分析と設計',
+        'フロントエンド実装',
+        'フォームの実装・テスト'
+      ],
+      technologies: [
+        { name: 'Vite', description: '開発効率を重視したフレームワークを利用し、静的サイトとして納品' },
+        { name: 'Cloudflare Pages', description: '高速なホスティングサービス' }
+      ]
+    },
+    {
+      id: 5,
+      title: 'Coming Soon',
+      description: '準備中',
+      image: '/images/work5.svg',
+      tags: ['HTML', 'SCSS', 'JavaScript'],
+      process: [
+        'ニーズ分析と設計',
+        'フロントエンド実装',
+        'フォームの実装・テスト'
+      ],
+      technologies: [
+        { name: 'Vite', description: '開発効率を重視したフレームワークを利用し、静的サイトとして納品' },
+        { name: 'Cloudflare Pages', description: '高速なホスティングサービス' }
+      ]
+    },
+    {
+      id: 6,
+      title: 'Coming Soon',
+      description: '準備中',
+      image: '/images/work5.svg',
+      tags: ['Astro', 'SCSS'],
+      process: [
+        'ニーズ分析と設計',
+        'フロントエンド実装',
+        'フォームの実装・テスト'
+      ],
+      technologies: [
+        { name: 'Astro', description: '静的ビルドに優れたパフォーマンス性の高いフレームワーク' },
         { name: 'Cloudflare Pages', description: '高速なホスティングサービス' }
       ]
     }

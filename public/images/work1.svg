@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- ヘッダー -->
+  <rect x="0" y="0" width="100%" height="10%" fill="#333"/>
+  <text x="50" y="45" font-size="18" fill="#fff" font-family="Arial">Portfolio</text>
+  
+  <!-- メインコンテンツエリア -->
+  <rect x="5%" y="15%" width="90%" height="70%" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- プロジェクトグリッド -->
+  <rect x="10%" y="20%" width="25%" height="25%" fill="#e0e0e0"/>
+  <rect x="40%" y="20%" width="25%" height="25%" fill="#e0e0e0"/>
+  <rect x="70%" y="20%" width="25%" height="25%" fill="#e0e0e0"/>
+  
+  <!-- テキストエリア -->
+  <rect x="10%" y="50%" width="80%" height="30%" fill="#f8f8f8"/>
+  <text x="50%" y="65%" font-size="16" text-anchor="middle" fill="#666" font-family="Arial">Coming Soon...</text>
+  
+  <!-- フッター -->
+  <rect x="0" y="90%" width="100%" height="10%" fill="#333"/>
+  <text x="50%" y="95%" font-size="14" text-anchor="middle" fill="#fff" font-family="Arial">© 2024 My Portfolio</text>
+</svg>

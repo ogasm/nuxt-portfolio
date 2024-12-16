@@ -107,15 +107,16 @@ const skillCategories = ref<SkillCategory[]>([
 ])
 
 const relatedWorks = ref({
-  'HTML': ['Project A'],
-  'CSS': ['Project B'],
-  'JavaScript': ['Project C', 'Project D'],
-  'Vue.js': ['Project E'],
-  'Nuxt3': ['Project F'],
-  'Node.js': ['Project G'],
-  'Express': ['Project H'],
-  'MongoDB': ['Project I'],
-  'React Native': ['Project J']
+  'HTML / CSS': ['オンラインピラティスLP（架空）', '不動産コーポレートサイト（架空）'],
+  'SCSS': ['オンラインピラティスLP（架空）', '不動産コーポレートサイト（架空）'],
+  'JavaScript': ['オンラインピラティスLP（架空）', '不動産コーポレートサイト（架空）'],
+  'Nuxt3': ['ポートフォリオ'],
+  'Vue.js': ['ポートフォリオ'],
+  'TypeScript': ['ポートフォリオ']
+  // 'Node.js': ['Project G'],
+  // 'Express': ['Project H'],
+  // 'MongoDB': ['Project I'],
+  // 'React Native': ['Project J']
 })
 
 const highlightedSkill = ref<string | null>(null)
